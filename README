@@ -1,0 +1,9 @@
+JAPriorityQueue
+
+A priority queue in Objective-C, using the standard binary heap algorithm.
+Inserted objects are extracted in sort order according to some selector (which
+is expected to take an object and return an NSComparisonResult).
+
+MIT license.
+Will not build under ARC. It should interact fine with ARC code if built with
+-fno-objc-arc.
